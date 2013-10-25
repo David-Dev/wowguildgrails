@@ -19,14 +19,20 @@
 	</head>
 	<body>
 		<div class="wrap">
-            <div class="navbar navbar-default navbar-fixed-top"></div>
+            <g:render template="/helpers/navbar" />
             <div class="container">
                 <div class="page-header"><h1><g:layoutTitle default="Auditor Fortuna Juvat"/></h1></div>
                 <g:layoutBody/>
             </div>
 
 		</div>
-
+        <div class="footer">
+            <div class="container">
+                <p class="text-muted credit">
+                    Auditor Fortuna Juvat (<a href="http://github.com/chriswk">Konichiwah</a> and <a href="http://github.com/David-Dev">Holynurse</a>
+                </p>
+            </div>
+        </div>
         <g:javascript library="application"/>
         <r:layoutResources />
     </body>
