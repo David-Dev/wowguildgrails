@@ -1,0 +1,1 @@
+<div class="forum">${forum.title}</div>
